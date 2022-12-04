@@ -8,10 +8,10 @@
         List<int> linesNum = (Array.ConvertAll(lines, s => Int32.Parse(s))).ToList();
         linesNum.Sort();
 
-        Console.WriteLine("########## Day 1 2020 ##########");
+        Console.WriteLine("--------- Day 1 2020 ---------");
         Console.WriteLine($"Part one solution: {PartOne(linesNum)}");
         Console.WriteLine($"Part two solution: {PartTwo(linesNum)}");
-        Console.WriteLine("################################");
+        Console.WriteLine("------------------------------");
 
 
         static int PartOne(List<int> list)

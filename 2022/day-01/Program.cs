@@ -3,10 +3,10 @@
     public static void Main()
     {
         string[] lines = System.IO.File.ReadAllLines(@".\input.txt");
-        Console.WriteLine("########## Day 1 2022 ##########");
+        Console.WriteLine("--------- Day 1 2022 ----------");
         Console.WriteLine($"Part one solution: {PartOne(lines)}");
         Console.WriteLine($"Part two solution: {PartTwo(lines)}");
-        Console.WriteLine("################################");
+        Console.WriteLine("-------------------------------");
 
         // helper function to get the sum of all elves' calories
         static List<int> SumOfCalories(string[] lines)

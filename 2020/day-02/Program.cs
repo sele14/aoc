@@ -3,11 +3,10 @@
     public static void Main()
     {
         string[] lines = System.IO.File.ReadAllLines(@".\input.txt");
-        Console.WriteLine("########## Day 1 2020 ##########");
+        Console.WriteLine("-------- Day 1 2020 --------");
         Console.WriteLine($"Part one solution: {PartOne(lines)}");
         Console.WriteLine($"Part two solution: {PartTwo(lines)}");
-        Console.WriteLine("################################");
-
+        Console.WriteLine("----------------------------");
 
         static int PartOne(string[] lines)
         {
